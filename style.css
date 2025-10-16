@@ -10,6 +10,10 @@ body {
     color: #fff;
   }
 
+  :root {
+    font-size: 22px;
+  }
+
   .container {
     position: relative;
     width: 300px;
