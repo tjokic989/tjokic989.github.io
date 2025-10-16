@@ -1,37 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JT | Welcome</title>
 </head>
 <body>
-    <div id="text"></div>
-    <img src="portfolio.png" alt="image of me">
-    <br>
-    <i class="fa-brands fa-html5"></i>
-    <i class="fa-brands fa-css"></i>
-    <i class="fa-brands fa-js"></i>
 
+<div class="container">
+  <div class="center-image">
+    <img src="portfolio.png" alt="Me">
+  </div>
+  <div class="skill">HTML</div>
+  <div class="skill">CSS</div>
+  <div class="skill">JS</div>
+</div>
 
-    <script>
-        const text = "Hello, I am JT!";
-    const el = document.getElementById("text");
-    let i = 0;
-
-    function type() {
-      if (i < text.length) {
-        el.textContent += text.charAt(i);
-        i++;
-        setTimeout(type, 100); // speed (ms)
-      }
-    }
-
-    type();
-    </script>
 </body>
 </html>
