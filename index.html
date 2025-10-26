@@ -1,21 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>JT | Welcome</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Developer Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
+    <div class="container">
+        <header>
+            <div class="avatar">
+                <img src="profile.jpg" alt="Profile Picture">
+            </div>
+            <h1>Tomislav Jokić</h1>
+            <p class="tagline">Aspiring Frontend Web Developer</p>
+        </header>
 
-<div class="container">
-  <div class="center-image">
-    <img src="portfolio.png" alt="Me">
-  </div>
-  <div class="skill">HTML</div>
-  <div class="skill">CSS</div>
-  <div class="skill">JS</div>
-</div>
+        <section class="skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <div class="skill-icon html-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <div class="skill-name">HTML5</div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon css-icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <div class="skill-name">CSS3</div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon js-icon">
+                        <i class="fab fa-js-square"></i>
+                    </div>
+                    <div class="skill-name">JavaScript</div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon git-icon">
+                        <i class="fab fa-git-alt"></i>
+                    </div>
+                    <div class="skill-name">Git</div>
+                </div>
+            </div>
+        </section>
 
+        <section class="contact">
+            <h2 class="section-title">Get In Touch</h2>
+            <p>Let's work together on your next project</p>
+            <div class="contact-links">
+                <a href="https://github.com/tjokic989" class="contact-link" target="_blank">
+                    <div class="contact-icon github-icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <span>GitHub</span>
+                </a>
+                <a href="mailto:tomajokic989@gmail.com" class="contact-link">
+                    <div class="contact-icon email-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <span>Email</span>
+                </a>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 JT. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="main.js"></script>
 </body>
 </html>
